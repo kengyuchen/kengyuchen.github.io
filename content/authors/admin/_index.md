@@ -74,15 +74,15 @@ skills:
         percent: 100
         icon: camera-retro
         icon_pack: fas
-      - name: Classical and J-Pop Music
+      - name: Piano
         description: ''
         percent: 100
         icon: music
         icon_pack: fas
-      - name: Film
+      - name: J-Pop Music
         description: ''
         percent: 100
-        icon: film
+        icon: music
         icon_pack: fas
 
 
