@@ -102,8 +102,8 @@ social:
     link: https://www.instagram.com/garychen.photoworks/
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/RHGoJKFiLwHkaWR
-    label: Follow me on Twitter
+    link: https://x.com/kengyuchen0126?s=21
+    label: Follow me on X
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
   #   icon_pack: fas
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
