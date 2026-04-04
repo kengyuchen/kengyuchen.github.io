@@ -21,10 +21,13 @@ main:
     weight: 80
   - name: Note
     url: 'category/note/'
-    weight: 60
+    weight: 30
   - name: Review
     url: 'category/review/'
-    weight: 70
+    weight: 40
+  - name: Writing
+    url: 'category/writing/'
+    weight: 50
   # - name: Projects
   #   url: '#projects'
   #   weight: 30
@@ -39,7 +42,7 @@ main:
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name : Photography
     url: '#photo'
-    weight: 80
+    weight: 90
   - name: CV
     url: uploads/CV.pdf
     weight: 100
