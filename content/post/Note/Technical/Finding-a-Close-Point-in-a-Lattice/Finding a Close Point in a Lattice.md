@@ -13,13 +13,6 @@ tags:
    - "Cryptography"
 ---
 
-- Reference
-    1. [Bab85] [On Lovász’ lattice reduction and the nearest lattice point problem](https://link.springer.com/article/10.1007/bf02579403)
-    2. [Kle00] [Finding the closest lattice vector when it's unusually close](https://dl.acm.org/doi/10.5555/338219.338661)
-    3. [GPV08] [Trapdoors for Hard Lattices and New Cryptographic Constructions](https://eprint.iacr.org/2007/432.pdf)
-    4. [DP16] [Fast Fourier Orthogonalization](https://eprint.iacr.org/2015/1014.pdf)
-    5. [GMRR22] [Power analysis attacks on falcon.](https://doi.org/10.46586/tches.v2022.i3.141-164)
-
 {{< toc >}}
 
 
@@ -203,7 +196,30 @@ $$
 $$
 {{< /math >}}
 
+### Another Way to Say Theorem 1
 
+{{< math >}}
+
+Let $\mathbf{t}' = (t_1, \dots, t_n)$.
+
+$$
+\mathbf{B}(\mathbf{z} - \mathbf{t}) = \tilde{\mathbf{B}}(\mathbf{z} - \mathbf{t}')  \in \mathbf{\tilde B} \cdot[-\frac{1}{2},\frac{1}{2}]^n 
+$$
+
+### Proof
+
+$$
+\begin{aligned}
+\tilde{\mathbf{B}}(\mathbf{z} - \mathbf{t}') &= \sum_{i=1}^n (z_i - t_i') \tilde{\mathbf{b}}_i \\
+&= \sum_{i=1}^n \left(z_i - t_i - \sum_{j>i} \mathbf{U}_{ij} (t_j - z_j)\right) \tilde{\mathbf{b}}_i \\
+&= \sum_{i=1}^n \left( \sum_{j \geq i} \mathbf{U}_{ij} (z_j - t_j)\right) \tilde{\mathbf{b}}_i \\
+&= \sum_{j=1}^n (z_j - t_j)\sum_{i < j} \mathbf{U}_{ij} \tilde{\mathbf{b}}_i \\
+&= \sum_{j=1}^n (z_j - t_j)\mathbf{b}_j \\
+&= \mathbf{B}(\mathbf{z} - \mathbf{t})
+\end{aligned}
+$$
+
+{{< /math >}}
 
 ### Illustration from [DP16]
 
@@ -260,7 +276,7 @@ $$
 
 {{< /math >}}
 
-Now we need to prove that the denominator is close to $\rho_{\sigma,\mathbf{c}}(\mathcal{L}(\mathbf{B}))$. Recall the lemma from [smoothing parameter](https://www.notion.so/Smoothing-Parameter-for-Gaussian-Function-f8c424cb8f504dec8064fab8ca57023a?pvs=21), since $\sigma_i \geq \omega(\sqrt{\log(n)})$, $\sigma_i \geq \eta_\epsilon(\mathbb{Z})$ for negligible $\epsilon$ and 
+Now we need to prove that the denominator is close to $\rho_{\sigma,\mathbf{c}}(\mathcal{L}(\mathbf{B}))$. Recall Lemma 2.4 from [[Pei10]](https://eprint.iacr.org/2010/088), since $\sigma_i \geq \omega(\sqrt{\log(n)})$, $\sigma_i \geq \eta_\epsilon(\mathbb{Z})$ for negligible $\epsilon$ and 
 
 {{< math >}}
 $$
@@ -290,3 +306,13 @@ Now the probability of outputting $\mathbf{v}_0$ is within $\left[\left(\frac{1-
 
 
 > Remark: This also implies that by calling this algorithm multiple times, one can get the “closest” point with high probability.
+
+
+- Reference
+    1. [Bab85] [On Lovász’ lattice reduction and the nearest lattice point problem](https://link.springer.com/article/10.1007/bf02579403)
+    2. [Kle00] [Finding the closest lattice vector when it's unusually close](https://dl.acm.org/doi/10.5555/338219.338661)
+    3. [GPV08] [Trapdoors for Hard Lattices and New Cryptographic Constructions](https://eprint.iacr.org/2007/432.pdf)
+    4. [Pei10] [An Efficient and Parallel Gaussian Sampler for Lattices](https://eprint.iacr.org/2010/088.pdf) 
+    5. [DP16] [Fast Fourier Orthogonalization](https://eprint.iacr.org/2015/1014.pdf)
+    6. [GMRR22] [Power analysis attacks on falcon.](https://doi.org/10.46586/tches.v2022.i3.141-164)
+
