@@ -17,7 +17,7 @@ publishDate: "2026-04-04T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "[IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)](https://tches.iacr.org/)"
+publication: "[IACR Transactions on Cryptographic Hardware and Embedded Systems](https://tches.iacr.org/)"
 publication_short: "TCHES"
 
 abstract: In this paper, we present an improved correlation power analysis (CPA) attack on the pre-image computation of the digital signature scheme Falcon. Our attack exploits new side-channel leakage that multiplication masking schemes fail to protect. To enhance both the efficiency and accuracy of the attack, we develop new theoretical insights for recovering the secret floating-point numbers, which can also be leveraged to improve prior attacks. For mantissa recovery, we identify and correct a flaw in an earlier work and provide a more complete and practical analysis. For exponent recovery, we analyze the distribution of Falcon’s secret key after the fast Fourier transform, reduce the number of required traces, and mitigate false positives. To validate our attack, we conducted two experiments targeting existing countermeasures on floating-point multiplication. In our environment, we successfully recovered the secret key using only around one thousand power traces. Our results demonstrate that protecting floating-point multiplication alone is insufficient to defend Falcon against side-channel attacks. A comprehensive masking including at least floating-point addition is necessary.
