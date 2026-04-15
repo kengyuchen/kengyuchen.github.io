@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "[個人寫作]《布拉姆斯 Op. 118 No. 2》"
+title: "《布拉姆斯 Op. 118 No. 2》"
 subtitle: ""
 summary: ""
 tags: ["詩詞"]

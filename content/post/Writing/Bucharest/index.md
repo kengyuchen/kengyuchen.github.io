@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "[個人寫作]布加列斯特 [Personal writing] Bucharest"
+title: "布加列斯特 Bucharest"
 subtitle: ""
 summary: ""
 tags: ["詩詞"]
