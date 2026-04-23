@@ -1,12 +1,14 @@
-@Article{TCHES:CheChe24,
-  author =       "Keng-Yu Chen and
-                  Jiun-Peng Chen",
-  title =        "Masking Floating-Point Number Multiplication and Addition of Falcon First- and Higher-order Implementations and Evaluations",
-  pages =        "276--303",
-  volume =       2024,
-  publisher =    tchespub,
-  year =         2024,
-  journal =      tches,
-  number =       2,
-  doi =          "10.46586/tches.v2024.i2.276-303",
+@article{Chen_Chen_2024,
+    title={Masking Floating-Point Number Multiplication and Addition of Falcon: First- and Higher-order Implementations and Evaluations},
+    volume={2024},
+    url={https://tches.iacr.org/index.php/TCHES/article/view/11428},
+    DOI={10.46586/tches.v2024.i2.276-303},
+    abstractNote={In this paper, we provide the first masking scheme for floating-point number multiplication and addition to defend against recent side-channel attacks on Falcon’s pre-image vector computation. Our approach involves a masked nonzero check gadget that securely identifies whether a shared value is zero. This gadget can be utilized for various computations such as rounding the mantissa, computing the sticky bit, checking the equality of two values, and normalizing a number. To support the masked floating-point number addition, we also developed a masked shift and a masked normalization gadget. Our masking design provides both first- and higherorder mask protection, and we demonstrate the theoretical security by proving the (Strong)-Non-Interference properties in the probing model. To evaluate the performance of our approach, we implemented unmasked, first-order, and second-order algorithms on an Arm Cortex-M4 processor, providing cycle counts and the number of random bytes used. We also report the time for one complete signing process with our countermeasure on an Intel-Core CPU. In addition, we assessed the practical security of our approach by conducting the test vector leakage assessment (TVLA) to validate the effectiveness of our protection. Specifically, our TVLA experiment results for second-order masking passed the test in 100,000 measured traces.
+    },
+    number={2},
+    journal={IACR Transactions on Cryptographic Hardware and Embedded Systems},
+    author={Chen, Keng-Yu and Chen, Jiun-Peng},
+    year={2024},
+    month={Mar.},
+    pages={276–303}
 }

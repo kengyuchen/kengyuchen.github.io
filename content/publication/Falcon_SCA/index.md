@@ -5,7 +5,7 @@ authors:
 - Ming Qing Ching
 - Jiun-Peng Chen
 - Bo-Yin Yang
-date: "2026-1-15"
+date: "2026-4-23"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -31,9 +31,9 @@ tags:
 featured: true
 
 links:
-#- name: 'DOI'
-#  url: 'https://tches.iacr.org/index.php/TCHES/article/view/11428'
-url_pdf: ''
+- name: 'DOI'
+  url: 'https://tches.iacr.org/index.php/TCHES/article/view/12905'
+url_pdf: 'https://tches.iacr.org/index.php/TCHES/article/view/12905/12533'
 url_code: ''
 url_dataset: ''
 url_poster: ''

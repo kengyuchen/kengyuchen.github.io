@@ -1,0 +1,14 @@
+@article{Chen_Ching_Chen_Yang_2026,
+    title={When Masking Multiplication Isn’t Enough: Exploiting Floating-Point Leakage in Falcon’s Pre-Image Computation},
+    volume={2026},
+    url={https://tches.iacr.org/index.php/TCHES/article/view/12905},
+    DOI={10.46586/tches.v2026.i2.686-708},
+    abstractNote={In this paper, we present an improved correlation power analysis (CPA) attack on the pre-image computation of the digital signature scheme Falcon. Our attack exploits new side-channel leakage that multiplication masking schemes fail to protect. To enhance both the efficiency and accuracy of the attack, we develop new theoretical insights for recovering the secret floating-point numbers, which can also be leveraged to improve prior attacks. For mantissa recovery, we identify and correct a flaw in an earlier work and provide a more complete and practical analysis. For exponent recovery, we analyze the distribution of Falcon’s secret key after the fast Fourier transform, reduce the number of required traces, and mitigate false positives. To validate our attack, we conducted two experiments targeting existing countermeasures on floating-point multiplication. In our environment, we successfully recovered the secret key using only around one thousand power traces. Our results demonstrate that protecting floating-point multiplication alone is insufficient to defend Falcon against side-channel attacks. A comprehensive masking including at least floating-point addition is necessary.
+    },
+    number={2},
+    journal={IACR Transactions on Cryptographic Hardware and Embedded Systems},
+    author={Chen, Keng-Yu and Ching, Ming Qing and Chen, Jiun-Peng and Yang, Bo-Yin},
+    year={2026},
+    month={Apr.},
+    pages={686–708}
+}
