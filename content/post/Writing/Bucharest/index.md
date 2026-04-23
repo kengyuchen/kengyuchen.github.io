@@ -8,7 +8,7 @@ tags: ["詩詞"]
 categories: ["Writing"]
 date: 2026-04-13T14:00:30+02:00
 lastmod: 2026-04-13T14:00:30+02:00
-featured: false
+featured: true
 draft: false
 
 # Featured image

@@ -162,6 +162,23 @@ sections:
   #   design:
   #     columns: '2'
   - block: collection
+    id: featured_posts
+    content:
+      title: Featured Posts
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 3
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        featured_only: true
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
+  - block: collection
     id: posts
     content:
       title: Recent Posts
@@ -186,7 +203,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: showcase
+      view: compact
       columns: '2'
   # - block: portfolio
   #   id: projects
