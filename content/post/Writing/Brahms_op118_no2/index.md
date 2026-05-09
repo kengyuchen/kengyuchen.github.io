@@ -76,8 +76,4 @@ projects: []
 
 ---
 
-此首作於25歲時。
-
-
-
-《布拉姆斯 Op. 118 No. 2》，第一次聆聽就感受到其中的深情與苦澀。看完安迪老師的[賞析影片](https://www.youtube.com/watch?v=NYcDxInMYhk)後，更加喜愛此曲，也由此獲得創作此曲的靈感。
+《布拉姆斯 Op. 118 No. 2》，第一次聆聽就感受到其中的深情與苦澀。看完安迪老師的[賞析影片](https://www.youtube.com/watch?v=NYcDxInMYhk)後，更加喜愛此曲，也由此獲得創作此詩的靈感。
