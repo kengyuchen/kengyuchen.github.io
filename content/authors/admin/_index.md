@@ -25,14 +25,14 @@ organizations:
     url: https://www.epfl.ch/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include theoretical aspects of cryptographic constructions and side-channel analysis
+bio: My research interests include theoretical aspects of cryptographic constructions, biometric authentication, functional encryption, and side-channel analysis.
 
 # Interests to show in About widget
 interests:
-- Theoretical View on Cryptographic Constructions
+- Cryptographic Constructions
 - Biometric Authentication
 - Functional Encryption
-- Side-channel Analysis
+- Side-Channel Analysis
 
 # Education to show in About widget
 education:
