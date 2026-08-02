@@ -3,8 +3,8 @@ title: "The Cryptographic Layer of Biometric Authentication"
 authors:
 - admin
 - Serge Vaudenay
-date: ""
-doi: ""
+date: "2026-07-26"
+doi: "https://doi.org/10.1007/978-3-032-32575-4_11"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2026-04-13"
@@ -31,8 +31,6 @@ tags:
 featured: true
 
 links:
-#- name: 'DOI'
-#  url: 'https://tches.iacr.org/index.php/TCHES/article/view/11428'
 url_pdf: ''
 url_code: ''
 url_dataset: ''
