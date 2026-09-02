@@ -2,7 +2,7 @@
 title: Finding a Close Point in a Lattice
 author: admin
 date: 2023-07-10
-updated: 2023-11-06
+updated: 2026-09-02
 math: true
 toc: true
 toc_depth: 4
@@ -15,6 +15,7 @@ tags:
 
 {{< toc >}}
 
+The latest version of this note can be found at [Finding a Close Point in a Lattice](https://github.com/kengyuchen/Notes/blob/main/crypto/Finding_a_Close_Point_in_a_Lattice/main.pdf).
 
 ## Problem Setting
 {{< math >}}
