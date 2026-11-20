@@ -24,6 +24,10 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+  mounts:
+    - source: assets
+      target: assets
+      excludeFiles: '**.DS_Store'
 
 ############################
 ## ADVANCED
